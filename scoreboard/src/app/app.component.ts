@@ -6,7 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  helloWorld(){
-    alert("Hello");
+  // define the score value
+  score = 0;
+
+  // increment the score
+  addScore(){
+    this.score++;
   }
 }
+
+/*
+components
+control-panel
+scoreboard
+team-control
+team-score
+*/
